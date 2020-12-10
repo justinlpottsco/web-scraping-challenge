@@ -1,15 +1,10 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 from splinter import Browser
 from bs4 import BeautifulSoup 
 import time
 import pandas as pd
 from pprint import pprint
 from webdriver_manager.chrome import ChromeDriverManager
+import PyMongo
 
 
 # In[2]:
@@ -142,7 +137,7 @@ for hemi in hemispheres:
 print(hemispheres_images_urls)
 
 
-# In[ ]:
+
 
 
 
